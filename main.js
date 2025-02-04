@@ -4,18 +4,40 @@
 // function printOutString() {
 //   // your code here
 // }
-
 // printOutString();
 // Complete the function to print out the string: This is a sentence.
+let arr = ["This", "is", "a", "sentence."];
+function printOutString(arr) {
+  let cadena = "";
+  for (let i = 0; i < arr.length; i++) {
+    cadena = cadena + arr[i] + " ";
+  }
+  return cadena;
+}
+//Con JOIN
+console.log(arr.join(" "));
+console.log(printOutString(arr));
+
 // Exercise #2 (sugerencia map())
 // Write a function that:
 // Takes in an array of numbers.
 // Doubles the value of each number in the array.
 // Prints out the new updated array.
 // Example: Given an array [1, 2, 4, 5]. The output should be [2, 4, 8, 10]
+function doublesNumbersOfArray(arr) {
+  let newArrayNumbers = [];
+  for (let i = 0; i < arr.length; i++) {
+    newArrayNumbers[i] = arr[i] * 2;
+  }
+  return newArrayNumbers;
+}
+console.log([3, 8, 9, 6].map((num) => num * 2));
+console.log(doublesNumbersOfArray([3, 8, 9, 6]));
+
 // Exercise #3 (sugerencia reduce())
 // Write a program to compute the sum and product (multiplication) of an array of numbers. Print out the sum and the product.
 // Example: Given an array [1, 2, 3, 4] The sum is 10. The product is 24.
+
 // Exercise #4 (sugerencia filter() e includes())
 // let student1Courses = ['Math', 'English', 'Programming'];
 // let student2Courses = ['Geography', 'Spanish', 'Programming'];
