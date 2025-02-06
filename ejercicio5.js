@@ -10,6 +10,7 @@
 // Write the command that gives the indexOf where "Maria" is located.
 // At the end of the exercise, there should be 4 people in the array.
 // Inicializar el array
+
 let people = ["Maria", "Dani", "Luis", "Juan", "Camila"];
 
 // 1. Imprimir todas las personas en la lista

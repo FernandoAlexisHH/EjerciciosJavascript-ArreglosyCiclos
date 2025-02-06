@@ -4,6 +4,7 @@
 // Doubles the value of each number in the array.
 // Prints out the new updated array.
 // Example: Given an array [1, 2, 4, 5]. The output should be [2, 4, 8, 10]
+
 function doublesNumbersOfArray(arr) {
   let newArrayNumbers = [];
   for (let i = 0; i < arr.length; i++) {
