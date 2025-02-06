@@ -6,40 +6,26 @@
     <title>Ejercicios Javascript - Arreglos y ciclos</title>
   </head>
   <body>
-    <header>
-      <h1>Ejercicios Javascript</h1>
-    </header>
-    <div class="card-container">
-      <div class="card">
-        <h2>Ejercicio 1</h2>
-        <a href="ejercicio1.js" class="btn">Ver Ejercicio</a>
-      </div>
-      <div class="card">
-        <h2>Ejercicio 2</h2>
-        <a href="ejercicio2.js" class="btn">Ver Ejercicio</a>
-      </div>
-      <div class="card">
-        <h2>Ejercicio 3</h2>
-        <a href="ejercicio3.js" class="btn">Ver Ejercicio</a>
-      </div>
-      <div class="card">
-        <h2>Ejercicio 4</h2>
-        <a href="ejercicio4.js" class="btn">Ver Ejercicio</a>
-      </div>
-      <div class="card">
-        <h2>Ejercicio 5</h2>
-        <a href="ejercicio5.js" class="btn">Ver Ejercicio</a>
-      </div>
-      <div class="card">
-        <h2>Ejercicio 6</h2>
-        <a href="ejercicio6.js" class="btn">Ver Ejercicio</a>
-      </div>
-    </div>
     <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #eee;
+      }
+      .header {
+        background-color: #f0db4f;
+        color: #323330;
+        text-align: center;
+        padding: 20px 0;
+        margin-bottom: 16px;
+      }
       .card-container {
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
+        align-items: center;
+        justify-content: center;
       }
       .card {
         border: 1px solid #ccc;
@@ -47,6 +33,8 @@
         padding: 16px;
         width: 200px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #f0db4f;
+        color: #323330;
       }
       .card h2 {
         font-size: 1.5em;
@@ -64,6 +52,46 @@
       .btn:hover {
         background-color: #0056b3;
       }
+      .footer {
+        display: block;
+        background-color: #323330;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 40px;
+      }
     </style>
+    <header class="header">
+      <h1>Ejercicios Javascript</h1>
+    </header>
+    <section class="card-container">
+      <article class="card">
+        <h2>Ejercicio 1</h2>
+        <a href="ejercicio1.js" class="btn">Ver Codigo</a>
+      </article>
+      <article class="card">
+        <h2>Ejercicio 2</h2>
+        <a href="ejercicio2.js" class="btn">Ver Codigo</a>
+      </article>
+      <article class="card">
+        <h2>Ejercicio 3</h2>
+        <a href="ejercicio3.js" class="btn">Ver Codigo</a>
+      </article>
+      <article class="card">
+        <h2>Ejercicio 4</h2>
+        <a href="ejercicio4.js" class="btn">Ver Codigo</a>
+      </article>
+      <article class="card">
+        <h2>Ejercicio 5</h2>
+        <a href="ejercicio5.js" class="btn">Ver Codigo</a>
+      </article>
+      <article class="card">
+        <h2>Ejercicio 6</h2>
+        <a href="ejercicio6.js" class="btn">Ver Codigo</a>
+      </article>
+    </section>
+    <footer class="footer">
+      <em>Made with ❤️ fernando hernández</em>
+    </footer>
   </body>
 </html>
